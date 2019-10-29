@@ -1,0 +1,81 @@
+h1 {
+    color: yellow;
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+body {
+    background: url("http://wallpapercave.com/wp/pEeUsp1.jpg");
+    font-size: 16px;
+  }
+
+header {
+    display: flex;
+    justify-content: left;
+  }
+  
+nav {
+  border: solid 1px #000;
+}
+
+nav ul.menu li {
+    float: left;
+    display: flex;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    color:white;
+}
+
+a {
+    color:#ffffff;
+    text-decoration:none;
+    font-weight:bold;
+    text-transform:uppercase;
+    font-family:helvetica;
+  }
+  
+  a:hover {
+      color: yellow;
+      text-decoration: none;
+  }
+  
+  .logo {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    max-height: 400px;
+}
+
+.hero {
+    text-align: center;  
+}
+
+main {
+    display: grid;
+    grid-template-columns:  repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 5 auto;
+    margin-bottom: 6rem;
+}
+
+/*button {
+    font-size: 1.5rem;
+    padding: 20px;
+    border-radius: 10% / 50%;
+}*/
+
+.picDivs {
+    width: 300px;
+    align-content: center;
+}
+
+img, p {
+    margin: 5;
+}
