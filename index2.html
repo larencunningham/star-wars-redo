@@ -1,29 +1,94 @@
 <!DOCTYPE html>
-<html lang ="en">
+<html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="veiwport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link href="style.css" rel="stylesheet">
-<title>Star Wars Films</title>
+  <meta charset="UTF-8">
+  <meta name="veiwport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="film.css" rel="stylesheet">
+  <title>Star Wars Films</title>
 </head>
 
 <body>
-    <nav>
-        <ul class="menu">
-            <li><a href="index.html">People</a></li>  
-            <li class="active"><a href="index2.html">Films</a></li>
-            <li><a href="index3.html">Planets</a></li>
-            <li><a href="index4.html">Starships</a></li>
-        </ul>
-    </nav>
+  <nav>
+    <ul class="menu">
+      <li><a href="index.html">People</a></li>
+      <li class="active"><a href="index2.html">Films</a></li>
+      <li><a href="index3.html">Planets</a></li>
+      <li><a href="index4.html">Starships</a></li>
+    </ul>
+  </nav>
 
- <div class="hero">
-        <div class="container">
-         <div class="col-sm-12"><img class="img-responsive logo" src="http://imageshack.com/a/img922/3783/oyvsRd.png">
-         
-<main>
-</main>
-<script type="module" src="swfilms.js"></script>
+  <div class="hero">
+    <div class="container">
+      <div class="col-sm-12">
+
+        <section class="intro">
+          A long time ago, in a galaxy far,<br> far away....
+        </section>
+
+        <section class="logo">
+          <img src="http://imageshack.com/a/img922/3783/oyvsRd.png">
+        </section>
+
+        <div id="board">
+          <div id="content">
+            <p id="title">Episode I</p>
+            <p id="subtitle">THE PHANTOMS MENACE</p>
+            <p>Turmoil has engulfed the Galactic Republic as Christopher Kade finishes studying to become a master in
+              his trade.</p>
+            <p>Hoping to resolve the matter with a blockade of deadly battleships, the greedy Trade Federation has
+              stopped all shipping to the small planet of Naboo.
+            </p>
+            <p>While the congress of the Republic endlessly debates this alarming chain of events, the Supreme
+              Chancellor has secretly dispatched two Jedi Knights, the guardians of peace and justice in the galaxy, to
+              settle the conflict....
+            </p>
+<br>
+            <p id="title">Episode II</p>
+            <p id="subtitle">ATTACK OF THE CLONES</p>
+            <p>There is unrest in the Galactic Senate. Several thousand solar systems have declared their intentions to
+              leave the Republic. This separatist movement, under the leadership of the mysterious Count Dooku, has made
+              it difficult for the limited number of Jedi Knights to maintain peace and order in the galaxy. Senator
+              Amidala, the former Queen of Naboo, is returning to the Galactic Senate to vote on the critical issue of
+              creating an ARMY OF THE REPUBLIC to assist the overwhelmed Jedi....</p>
+<br>
+            <p id="title">Episode III</p>
+            <p id="subtitle">REVENGE OF THE SITH</p>
+            <p>War! The Republic is crumbling under attacks by the ruthless Sith Lord, Count Dooku. There are heros on
+              both sides. Evil is everywhere. In a stunning moe, the fiendish droid leader, General Griveous, has swept
+              into the republic capital and kidnapped Chancellor Palpatine, leader of the Galactic Senate. As the
+              Separatist Droid Army attempts to feel the besieged capital with their valuable hostage, two Jedi Knights
+              lead a desperate mission to rescue captive Chancellor</p>>
+<br>
+            <p id="title">Episode IV</p>
+            <p id="subtitle">A NEW HOPE</p>
+            <p>It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory
+              against the evil Galactic Empire. During the battle, Rebel spies managed to steal secret plans to the
+              Empire’s ultimate weapon, the DEATH STAR, an armored space station with enough power to destroy an entire
+              planet.</p>>
+            <p>Pursued by the Empire’s sinister agents, Princess Leia races home aboard her starship, custodian of the
+              stolen plans that can save her people and restore freedom to the galaxy….</p>
+<br>
+            <p id="title">Episode V</p>
+            <p id="subtitle">THE EMPIRE STRIKES BACK</p>
+            <p>It is a dark time for the Rebellion. Although the Death Star has been destroyed, Imperial troops have
+              driven the Rebel forces from their hidden base and pursued them across the galaxy.</p>
+            <p>Evading the dreaded Imperial Starfleet, a group of freedom fighters led by Luke Skywalker has established
+              a new secret base on the remote ice world of Hoth.</p>
+            <p>The evil lord Darth Vader, obsessed with finding young Skywalker, has dispatched thousands of remote
+              probes into the far reaches of space….</p>
+
+</div>
+          </div>
+
+          <audio preload="auto" autoplay>
+            <source src="@/assets/audio/Star_Wars_original_opening_crawl_1977.mp3" type="audio/mpeg">
+          </audio>
+
+          <main>
+          </main>
+          <script type="module" src="swfilms.js"></script>
 </body>
+
 </html>
