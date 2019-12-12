@@ -78,4 +78,5 @@ main {
 
 img, p {
     margin: 5;
+    border-radius: 50px;
 }
